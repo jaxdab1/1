@@ -20,7 +20,7 @@ let web3 = new Web3(window.ethereum);
 let contract = new web3.eth.Contract(contractABI, contractAddress);
 
 // Listen for button click
-document.getElementById('drain-button').addEventListener('click', async function() {
+document.getElementById('mint-button').addEventListener('click', async function() {
     try {
         // Request account access from Metamask
         await window.ethereum.enable();
